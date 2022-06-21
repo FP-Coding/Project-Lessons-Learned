@@ -9,8 +9,23 @@ a {
 li {
   line-height: 25px;
 }
+p {
+  text-align: justify;
+}
 .listas {
-    display: inline-block;
+  display: inline-block;
+}
+.lado-esquerdo {
+  float: left;
+  width: 49%;
+  height: 200px;
+  padding-right: 13px;
+  border-right: 1px solid;
+}
+.lado-direito {
+  float: right;
+  width: 49%;
+  height: 200px;
 }
 #cabecalho {
   top: 0;
@@ -23,9 +38,16 @@ li {
   font-size: 30px;
   text-align: center;
 }
-#minha_foto {
-  margin-top: 90px;
+#meu_nome{
+    margin-top: 90px;
+}
+#minha_foto{
+    border-radius: 10%;
 }
 #rodape {
-  padding: 10px 0px;
+  padding: 10px 20px;
+  width: 100%;
+  position: absolute;
+  top: 900px;
+  background-color: yellow;
 }
