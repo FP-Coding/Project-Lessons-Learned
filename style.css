@@ -3,19 +3,24 @@ body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 0;
 }
+
 a {
   text-decoration: none;
   color: darkgreen;
 }
+
 li {
   line-height: 25px;
 }
+
 p {
   text-align: justify;
 }
+
 section {
   padding-left: 15px;
 }
+
 table {
   text-align: center;
   border-collapse: collapse;
@@ -23,23 +28,27 @@ table {
   width: 500px;
   height: 300px;
 }
+
 caption {
   border: 2px solid;
   padding: 20px;
   background-color: black;
 }
-th,
-td {
+
+th, td {
   height: 40px;
   border: 2px solid;
   padding: 0 10px;
 }
+
 .par {
   background-color: lightgray;
 }
+
 .listas {
   display: inline-block;
 }
+
 .lado-esquerdo {
   float: left;
   width: 49%;
@@ -47,16 +56,19 @@ td {
   padding-right: 13px;
   border-right: 1px solid;
 }
+
 .lado-direito {
   float: right;
   width: 49%;
   height: 200px;
 }
+
 #title-table {
   font-weight: bold;
   font-size: 25px;
   color: yellow;
 }
+
 #cabecalho {
   top: 0;
   position: fixed;
@@ -64,16 +76,20 @@ td {
   background-color: green;
   width: 100%;
 }
+
 #titulo {
   font-size: 30px;
   text-align: center;
 }
+
 #meu_nome {
   margin-top: 90px;
 }
+
 #minha_foto {
   border-radius: 10%;
 }
+
 #rodape {
   padding: 0px 20px;
   width: 100%;
