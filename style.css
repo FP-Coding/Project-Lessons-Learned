@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Franklin-Gothic-Medium, Arial-Narrow, Arial, sans-serif;
   margin: 0;
 }
 
@@ -35,7 +35,7 @@ caption {
   background-color: black;
 }
 
-th, td {
+th , td {
   height: 40px;
   border: 2px solid;
   padding: 0 10px;
@@ -91,7 +91,7 @@ th, td {
 }
 
 #rodape {
-  padding: 0px 20px;
+  padding-left: 20px;
   width: 100%;
   position: absolute;
   top: 1270px;
