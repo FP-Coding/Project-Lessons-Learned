@@ -8,24 +8,11 @@
 body {
   background-color: rgb(17, 24, 39);
   color: white;
-  max-width: 100vw;
 }
 
 a {
   text-decoration: none;
   color: lightgreen;
-}
-
-li {
-  line-height: 25px;
-}
-
-p {
-  text-align: justify;
-}
-
-section {
-  padding-left: 15px;
 }
 
 table {
@@ -80,7 +67,7 @@ th , td {
 }
 
 .lado-direito, .lado-esquerdo {
-  width: 45vw;
+  width: 45%;
 }
 
 #aprendizados {
@@ -105,6 +92,7 @@ th , td {
   justify-content: center;
   font-size: 36px;
   gap: 40px;
+  padding: 0;
 }
 
 #name-and-title {
@@ -145,7 +133,6 @@ th , td {
 #rodape {
   margin-top: 20px;
   background-color: darkblue;
-  width: 100vw;
   padding: 10px;
   padding-left: 50px;
   text-align: center;
