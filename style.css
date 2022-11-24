@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-size: border-box;
+  box-sizing: border-box;
   font-family: Franklin-Gothic-Medium, Arial-Narrow, Arial, sans-serif;
 }
 
@@ -36,7 +36,7 @@ th , td {
 }
 
 .par {
-  background-color: #D1D5DB;
+  background-color: rgb(209, 213, 219);
   color: black;
 }
 
@@ -52,9 +52,9 @@ th , td {
 }
 
 .card-tech {
-  background-color: #D9D9D9;
+  background-color: rgb(217, 217, 217);
   color: black;
-  font-weight: bold;
+  font-weight: 900;
   height: 200px;
   width: 200px;
   border-radius: 4px;
@@ -64,9 +64,10 @@ th , td {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 20px;
 }
 
-.lado-direito, .lado-esquerdo {
+.lado-direito , .lado-esquerdo {
   width: 45%;
 }
 
@@ -78,7 +79,7 @@ th , td {
 
 #my-title {
   display: flex;
-  width: 60%
+  width: 60%;
   justify-content: center;
   align-items: center;
   gap: 18px;
@@ -103,7 +104,7 @@ th , td {
 }
 
 #title_estudent {
-  font-size: 24px
+  font-size: 24px;
 }
 
 #title-table {
