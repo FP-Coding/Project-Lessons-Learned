@@ -45,6 +45,7 @@ th , td {
   list-style-type: none;
   display: flex;
   gap: 42px;
+  flex-wrap: wrap;
 }
 
 .code_tag {
